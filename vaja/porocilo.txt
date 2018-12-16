@@ -8,3 +8,17 @@ Untracked files:
         ./
 nothing added to commit but untracked files present (use "git add" to track)
 
+
+2. Pred commitom po spremembah v glasba.txt in tmp-txt: prikaz vseh datotek v katerih je, od zadnjega commita, prišlo do sprmemb
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+        modified:   glasba.txt
+        modified:   tmp.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+

@@ -1,0 +1,1 @@
+9. V datoteko tmp.txt vpiši poljuben stavek.
