@@ -20,5 +20,36 @@ Changes not staged for commit:
         modified:   tmp.txt
 no changes added to commit (use "git add" and/or "git commit -a")
 
+3. Stanje pred brisanjem tmp.txt
 
+$ git status
+On branch master
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        toni_zunec/
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+-Stanje po brisanjo in pred commitom: sporoèa sprmembe oz. poroèilo o brisanju datoteke
+
+$ git diff
+diff --git a/toni_zunec/vaja/tmp.txt b/toni_zunec/vaja/tmp.txt
+deleted file mode 100644
+index cf050e5..0000000
+--- a/toni_zunec/vaja/tmp.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-9. V datoteko tmp.txt vpi<9A>i poljuben stavek.
+\ No newline at end of file
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    toni_zunec/vaja/tmp.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
